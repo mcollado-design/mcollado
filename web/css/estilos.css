@@ -1,0 +1,92 @@
+/* 
+	Hoja de estilos para ejercicio/proyecto: XXXXXX
+	
+	Secciones: 
+	$1: Estilos base
+	$2: Estilos tipográficos
+	$3: XXXX
+
+*/
+
+/* $1: Estilos base */
+
+* { box-sizing: border-box; }
+
+
+/* $2: Estilos tipográficos */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    max-width: 50em;
+    padding: 2em 8%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-family: sans-serif;
+    color: white;
+    min-height: 100%;
+}
+
+html{
+    font-size: 110%;
+    height: 100%;
+}
+
+p {
+	margin-bottom: 17.6px;
+}
+
+.description{
+    line-height: 1.6
+}
+
+.home-intro{
+    display: block;
+    font-size: 17.6px;
+    line-height: 31.68px;
+}
+
+.name{
+    font-weight: 400;
+    font-size: 39.69px;
+    display: block;
+    font-family: 'Sirin Stencil', sans-serif;
+    color: #6f66ba;
+}
+.job{
+    color: gray;
+}
+
+.mail{
+    text-decoration: none;
+    color: #6f66ba;
+    font-weight: 400;
+    font-family: 'Sirin Stencil', sans-serif;
+    font-size: 19.9px;
+}
+
+.mail:visited{
+    color: color: #6f66ba;
+}
+
+.mail:hover{
+    color:white;
+}
+
+.languages{
+    text-align: center;
+}
+
+@media(max-width: 700px){
+    .description{
+        line-height: 1.45
+    }
+    .name{
+        font-size: 34.9px;
+    }
+
+}
+
+/* $3: XXXX */
